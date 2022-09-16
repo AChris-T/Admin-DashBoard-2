@@ -1,0 +1,87 @@
+.home{
+    display: flex;
+    
+    .homeContainer{
+        flex: 14;
+
+        .dataContainer{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            margin-top: 30px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+    }
+    .tables{
+        display: flex;
+
+        .tablelist{
+            flex: 7;
+        }
+        .stepForm{
+            flex: 3;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+    }
+
+}
+
+
+@media (min-width: 200px) and (max-width: 989px) {
+    .home{
+
+        .homeContainer{
+
+            .dataContainer{
+                display: grid;
+                grid-template-columns: auto auto; 
+                row-gap: 30px;   
+            }
+        }
+    }
+}
+
+@media (min-width: 760px) and (max-width: 777.5px) {
+    .home{
+
+        .homeContainer{
+            width: 200px;
+            margin-left: -60px;
+            .dataContainer{
+                display: grid;
+                grid-template-columns: auto auto; 
+                row-gap: 30px;   
+            }
+        }
+    }
+
+}
+@media (min-width: 200px) and (max-width: 789.9px) {
+    .home{
+
+        .homeContainer{
+            width: 700px;
+            margin-left: -60px;
+            .dataContainer{
+                display: grid;
+                grid-template-columns: auto; 
+                row-gap: 30px;   
+            }
+            .tables{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+
+}
+@media (min-width: 200px) and (max-width: 700px) {
+    .home{
+        .homeContainer{
+            margin-left: 30px;
+        }
+    }
+}

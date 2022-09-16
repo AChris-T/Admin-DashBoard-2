@@ -1,0 +1,310 @@
+.chart{
+    margin-top: 40px;
+    margin-left: 15px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+
+    .boxcont{
+
+    
+        .chartPaper{
+            justify-content: center;
+            border-radius: 15px;
+    
+
+            .chartCont{
+                background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+                margin-top: -30px;
+                width: 85%;
+                height: 200px;
+                margin-left: 20px;
+                display: flex;
+                align-items: center;
+                box-shadow: rgb(0 187 212 / 40%);
+                justify-content: center;
+                margin-bottom: 30px;
+
+                .chartCon{
+                    margin-top: -30px;
+                    margin-left: 10px;
+                    
+                    
+                    .chartSmall{
+                        margin-left: -40px;
+                        margin-top: 30px;
+                        color:black;
+                        stroke-opacity: 99;
+                        
+                    }
+                    
+                }
+            }
+        }
+
+
+    }
+    .chartInfo{
+        margin-left: 20px;
+        line-height: 1.5rem;
+        color:rgb(52, 71, 103);
+        font-family:Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        
+        h4{
+          font-size: 15px;  
+          font-weight: bold;
+        }
+        span{
+            color: gray;
+            font-family: serif;
+        }
+    }
+    hr{
+        border:none; 
+    border-top: 0px solid rgba(0, 0, 0, 0.12);
+    border-right: 0px solid rgba(0, 0, 0, 0.12);
+    border-left: 0px solid rgba(0, 0, 0, 0.12);
+    background-color: transparent;
+    height: 0.0625rem;
+    border-bottom: none;
+    opacity: 0.25;
+    background-image: linear-gradient(to right, rgba(52, 71, 103, 0), rgba(52, 71, 103, 0.4), rgba(52, 71, 103, 0))   
+    }
+
+    .time{
+        display: flex;
+        margin-left: 20px;
+        color: gray;
+        margin-top: 15px;
+        
+        .timeIcon{
+            font-size: 15px;
+            margin-right: 5px;
+        }
+    }
+}
+@media (min-width: 778px) and (max-width: 1250px) {
+    .chart{
+        .boxcont{
+
+            .chartPaper{
+                width: 290px;
+                
+            }
+        }
+    }
+}
+@media (min-width: 778px) and (max-width: 989px) {
+    .chart{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 35px;
+
+        .boxcont{
+
+            .chartPaper{
+                width: 430px;
+                
+            }
+        }
+    }
+}
+@media (min-width: 778px) and (max-width: 956px) {
+    .chart{   
+
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 380px;
+                
+            }
+        }
+    }
+}
+
+@media (min-width: 778px) and (max-width: 860px) {
+    .chart{   
+        margin-left: 50px;
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 340px;
+                
+            }
+        }
+    }
+}
+@media (min-width: 778px) and (max-width: 790px) {
+    .chart{   
+    
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 300px;
+                
+            }
+        }
+    }
+}
+
+@media (min-width: 760px) and (max-width: 777.5px) {
+    .chart{   
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 35px;
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 300px;
+                
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 789.9px) {
+    .chart{   
+        display: grid;
+        grid-template-columns: auto ;
+        row-gap: 35px;
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 680px;
+                
+                .chartCont{
+                    width:637px ;
+                }
+                .chart{
+                    margin-top:-200px;
+                    width: 30px;
+                    height: 40px;
+                }
+                
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 729px) {
+    .chart{   
+
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 650px;
+
+                .chartCont{
+                    width:600px ;
+                }
+                
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 686px) {
+    .chart{   
+
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 600px;
+
+                .chartCont{
+                    width:550px ;
+                }
+                
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 634px) {
+    .chart{   
+
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 500px;
+
+                .chartCont{
+                    width:450px ;
+                }
+                
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 544px) {
+    .chart{   
+
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 450px;
+
+                .chartCont{
+                    width:400px ;
+                }
+                
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 506px) {
+    .chart{   
+
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 380px;
+
+                .chartCont{
+                    width:350px ;
+                }
+                
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 425px) {
+    .chart{   
+
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 310px;
+
+                .chartCont{
+                    width:270px ;
+                }
+                
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width:280px) {
+    .chart{   
+
+        .boxcont{
+
+            
+            .chartPaper{
+                width: 250px;
+
+                .chartCont{
+                    width:200px ;
+                }
+                
+            }
+        }
+    }
+}

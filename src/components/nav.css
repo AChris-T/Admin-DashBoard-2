@@ -1,0 +1,13 @@
+.NavIcons{
+    display: none;
+    cursor: pointer;
+    font-size: 18px;
+    color:rgb(52, 71, 103);
+}
+@media screen and (max-width:1020px) {
+    .NavIcons{
+        display: block;
+        visibility: visible;
+    }
+    
+}

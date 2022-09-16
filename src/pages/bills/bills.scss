@@ -1,0 +1,143 @@
+.bills{
+    display: flex;
+    
+    .billsider{
+        flex: 14;
+        margin-top: 40px;
+    }
+}
+@media (min-width:890px) and (max-width: 1030px) {
+    .bills{
+        .billsider{
+            margin-left: -120px;
+        }
+    }
+}
+@media (min-width:885px) and (max-width: 995.33px) {
+    .bills{
+        .billsider{
+           margin-left: -100px; 
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 887px) {
+    .bills{
+        .billsider{
+            margin-left: -50px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+
+@media (min-width:290px) and (max-width: 850px) {
+    .bills{
+        .billsider{
+            margin-left: -70px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 682px) {
+    .bills{
+        .billsider{
+            margin-left: -25px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 655.33px) {
+    .bills{
+        .billsider{
+            margin-left: -45px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 610px) {
+    .bills{
+        .billsider{
+            margin-left: -35px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 588px) {
+    .bills{
+        .billsider{
+            margin-left: 25px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 588px) {
+    .bills{
+        .billsider{
+            margin-left: -10px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 430px) {
+    .bills{
+        .billsider{
+            margin-left: 70px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 377px) {
+    .bills{
+        .billsider{
+            margin-left: 60px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 362px) {
+    .bills{
+        .billsider{
+            margin-left: 50px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 352px) {
+    .bills{
+        .billsider{
+            margin-left: 40px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 340px) {
+    .bills{
+        .billsider{
+            margin-left: 30px;
+            .conbill{
+                margin-left:0px;
+            }
+        }
+    }
+}

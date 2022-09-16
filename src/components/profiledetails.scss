@@ -1,0 +1,321 @@
+.profile{
+    margin-left:20px;
+
+    .profilebox{
+
+        .boxTitle{
+            background: linear-gradient(195deg, rgba(73, 163, 241, 0.6), rgba(26, 115, 232, 0.6)) 50% center / cover, url("https://demos.creative-tim.com/material-dashboard-react/static/media/bg-profile.af1219a742e09fc7b612.jpeg") transparent;            
+            min-height: 18.75rem;
+            opacity: 1;
+            color: rgb(43, 79, 141);
+            border-radius: 0.75rem;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            position: relative;
+            background-position: 50% center
+        }
+
+        .profileBg{
+            margin-top: -80px;
+            width: 840px;
+            z-index: 1;
+            margin-left: 40px;
+            
+            .profileHead{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 20px;
+
+                .imgCont{
+                   display: flex;
+                   align-items: center;
+                   gap: 20px;
+
+                    img{
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                    .imgSMs{
+                        line-height: 1.5rem;
+                        font-family: Arial, Helvetica, sans-serif;
+
+                        h4{
+                            color: rgb(45, 62, 92);
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: 800;
+                            font-size: 1.2rem;
+                        }
+                        h6{
+                            color: gray;
+                            font-size: 14px;
+                            font-weight: normal;
+                        }
+                    }
+                }
+
+                .profileMenu{
+                    position: relative;
+                    margin-right: 20px;
+
+                    .menudetails{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 20px;
+                        background-color: rgb(248, 249, 250);
+                        width: 300px;
+                        border-radius: 10px;
+                        height: 50px;
+
+                        .menulist{
+                            list-style: none;
+
+                            .menulink{
+                                display: flex;
+                                align-items: center;
+                                text-decoration: none;
+                                font-family: Roboto, Helvetica, Arial, sans-serif;
+                                letter-spacing: 0.02857em;
+                                color: rgb(52, 71, 103);
+                                font-size: 1rem;
+                                font-weight: 400;
+
+                                .menuactive{
+                                    background-color: red;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .profileFtf{
+        display: flex;
+        margin: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(52, 71, 103) ;
+
+        .profiles{
+            border-right: 0.01rem solid rgb(237, 234, 234);
+            flex: 1;
+
+            h3{
+                margin-top:20px;
+                color: gray;
+                font-weight: 600;
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            .switchDetails{
+                display: flex;
+                align-items: center;
+                margin-left: -20px;
+                line-height: 1rem;
+                margin-bottom: 10px;
+
+                h5{
+                    margin-left: -10px;
+                    width:180px;
+                    color: rgb(123, 128, 154);
+                    font-weight: 400;
+                    font-size: 0.875rem;
+                    line-height: 1.5;
+                    letter-spacing: 0.02857em;
+                }
+            }
+            
+    
+        }
+        .profileInformation{
+            flex: 1;
+            border-right: 0.01rem solid rgb(237, 234, 234);
+            margin-left: 10px;
+
+            .headprof{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .headIcon{
+                    font-size: 18px;
+                    margin-right: 10px;
+                }
+            }
+            .profInfo{
+                margin-top: 30px;
+
+                h6{
+                    font-family: Roboto, Helvetica, Arial, sans-serif;
+                    font-size: 0.875rem;
+                    line-height: 1.5;
+                    letter-spacing: 0.02857em;
+                    color: rgb(123, 128, 154);
+                    font-weight: 300;
+                }
+
+                .profInfoDet{
+                    margin-top: 28px;
+                    
+                    .Name{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: -10px;
+                        gap: 5px;
+                        
+                        h4{
+                            font-weight: 600;
+                            font-size: 14px;
+                        }
+                    }
+                
+                }
+                
+               
+            }
+            
+
+        }
+        .conversation{
+            flex: 1;
+            margin-left: 10px;
+
+            .convescont{
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+
+            .converImage{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .convdetails{
+                margin-left: 10px;
+                line-height: 1rem;
+                width: 150px;
+
+                h6{
+                    font-weight: normal;
+                    width: 100px;
+                }
+            }
+            h5{
+                color: blue;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+
+            }
+           
+
+        }
+
+    }
+    .projects{
+        margin-left: 30px;
+
+        .project{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5rem;
+            margin-bottom: 20px;
+            h4{
+                color: rgb(45, 62, 92);
+                font-weight: 800;
+                font-size: 1rem;
+            }
+            h6{
+              font-weight: normal;
+              color: gray;
+              font-size: 0.8rem;  
+            }
+
+        }
+        .projectdisplays{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+            .projectdisplay{
+                width: 200px;
+                gap: 10px;
+                .imgproject{
+                    width: 180px;
+                    height: 100px;
+                    border-radius: 15px;
+                    object-fit: cover;
+                    opacity: 1;
+                }
+                h5{
+                    font-family: Roboto, Helvetica, Arial, sans-serif;
+                    font-size: 0.875rem;
+                    line-height: 1.5;
+                    letter-spacing: 0.02857em;
+                    opacity: 1;
+                    color: rgb(123, 128, 154);
+                    font-weight: 400;
+                    margin-top: 10px;
+                }
+                h4{
+                    font-size: 1.25rem;
+                    line-height: 1.375;
+                    font-family: Roboto, Helvetica, Arial, sans-serif;
+                    font-weight: 700;
+                    color: rgb(52, 71, 103);
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    color: rgb(123, 128, 154);
+                    font-weight: 300;
+                    font-family: Roboto, Helvetica, Arial, sans-serif;
+                    font-size: 0.875rem;
+                    line-height: 1.5;
+                    letter-spacing: 0.02857em;
+                    opacity: 1;    
+                    width: 170px;         
+                }
+                .btn{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    margin-bottom: 70px;
+                    button{
+                        width: 100px;
+                        height: 40px;
+                        padding: 10px 50px;
+                        font-family: Roboto, Helvetica, Arial, sans-serif;
+                        font-weight:800 ;
+                        color: rgb(26, 115, 232);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        letter-spacing: 0.1rem;
+                        font-size: 13px;
+                        background-color: transparent;
+                        border:1px solid rgb(26, 115, 232);
+                        cursor: pointer;
+                        border-radius: 0.5rem;
+                        line-height: 1.4;
+                    }
+
+                    &:hover{
+                        color: rgb(104, 150, 206);
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:990px) and (max-width: 1030px) {
+    .profile{
+        margin-left:20px;
+    }
+}

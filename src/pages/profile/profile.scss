@@ -1,0 +1,22 @@
+.profile{
+    display: flex;
+
+    .profileside{
+        flex: 3;
+        margin-left: -10px;
+    }
+
+    .sidemenu{
+        flex: 11;
+    }
+}
+@media (min-width:990px) and (max-width: 1030px) {
+    .profile{
+        .profileside{
+        }
+    
+        .sidemenu{
+            margin-left: -290px;
+        }
+    }
+}

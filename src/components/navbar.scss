@@ -1,0 +1,303 @@
+.navbar{
+    flex: 10;
+    margin-right: 20px;
+    margin-left: 20px;
+    z-index: 999;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .navContainer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        color: gray;
+        padding: 10px;
+        border-radius: 5px;
+
+
+        .navLinks{
+            font-size: 14px;
+            z-index: 999;
+            width: 120px;
+
+            span{
+                display: flex;
+            }
+
+            .navIcon{
+                font-size: 15px;
+                margin-right: 5px;
+                cursor: pointer;
+            }
+            h3{
+                color: black;
+            }
+        }
+        .navSearch{
+            display: flex;
+            align-items: center;
+            margin-right: 50px;
+            gap: 8px;
+            z-index: 99;
+
+            .navInput{
+                height: 40px;
+                background-color: transparent;
+                color: rgb(40, 56, 83);
+                border: 1px solid gray;
+                border-radius: 5px;
+                padding-left: 5px;
+
+                &:focus{
+                    outline: none;
+                }
+                
+            }
+            .navbtn{
+                border:none;
+                background-color: transparent;
+            }
+            .navIcon{
+                font-size: 17px;
+                cursor: pointer;
+                color:rgb(52, 71, 103);
+            }
+            
+        }
+        
+    }
+    .is-sticky {
+        position: fixed;
+        top: -20px;
+        left: 0;
+        margin-left: 300px;
+        width: 74%;
+        height: 70px;
+        box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+        background-color: rgb(248, 248, 255);
+        padding-top: 15px;
+        padding-bottom: 10px;
+        z-index: 9;
+        scroll-snap-align: start;
+        scroll-snap-type: y mandatory;
+    }
+}
+
+
+@media (min-width:990px) and (max-width: 1030px) {
+    .navbar{
+
+        .navSearch{
+            margin-right:10px ;
+
+        }
+        .is-sticky{
+            margin-left: 50px;
+            width: 950px;
+        }
+    }
+}
+@media (min-width: 760px) and (max-width: 791px){
+    .navbar{
+    
+        .is-sticky{
+            margin-left: 27px;
+          width: 730px;
+            
+        }
+    }
+}
+@media (min-width: 790px) and (max-width: 989px){
+    .navbar{
+    
+        .is-sticky{
+            margin-left:20px;
+            width: 900px;
+            
+        }
+    }
+}
+@media (min-width: 860px) and (max-width: 956px) {
+    .navbar{
+        .is-sticky{
+            margin-left:20px;
+            width: 830px;
+        }
+    }
+}
+@media (min-width: 790px) and (max-width: 887px) {
+    .navbar{
+        .navContainer{
+            width:800px;
+            margin-left: 50px;
+            .navSearch{
+                
+            }
+        }
+            .is-sticky{
+                    margin-left:20px;
+                    width: 800px;
+                    
+                }
+    }
+}
+@media (min-width: 790px) and (max-width: 860px) {
+    .navbar{
+        .is-sticky{
+            margin-left:20px;
+            width: 760px;
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 789.9px) {
+    .navbar{
+        .navContainer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .navSearch{
+                display: flex;
+                justify-content: space-between;
+                width: 670px;
+
+                .navIcons{
+                    display: flex;
+                    justify-content: space-around;
+                    gap: 10px;
+                }
+                
+            }
+        }
+        .is-sticky{
+            margin-left: 20px;
+            width: 700px;
+            height: 120px;
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 729px) {
+    .navbar{
+        .navContainer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .navSearch{
+                display: flex;
+                justify-content: space-between;
+                width: 640px;
+
+                .navIcons{
+                    display: flex;
+                    justify-content: space-around;
+                    gap: 10px;
+                }
+                
+            }
+        }
+        .is-sticky{
+            margin-left: 20px;
+            width: 660px;
+            height: 120px;
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 686px) {
+    .navbar{
+        .navContainer{
+
+            .navSearch{
+                width: 580px;
+            }
+        }
+                .is-sticky{
+                    margin-left:20px;
+                    width: 600px;
+            
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 634px) {
+    .navbar{
+        .navContainer{
+
+            .navSearch{
+                width: 480px;
+            }
+        }
+                .is-sticky{
+                    margin-left: 12px;
+                    width: 510px;
+                    padding: 10px;
+            
+        }
+    }
+
+}
+@media (min-width: 200px) and (max-width: 544px) {
+
+    .navbar{
+        .navContainer{
+
+            .navSearch{
+                width: 440px;
+            }
+        }
+                .is-sticky{
+                    margin-left: 12px;
+                    width: 470px;
+                    padding: 10px;
+            
+        }
+    }
+
+
+}
+@media (min-width: 200px) and (max-width: 506px) {
+
+    .navbar{
+        .navContainer{
+
+            .navSearch{
+                width: 350px;
+            }
+        }
+                .is-sticky{
+                    width: 385px;
+                    padding: 10px;
+            
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 425px) {
+    .navbar{
+        .navContainer{
+
+            .navSearch{
+                width: 300px;
+            }
+        }
+                .is-sticky{
+                    width: 320px;
+                    padding: 10px;
+            
+        }
+    }
+}
+
+@media (min-width: 200px) and (max-width:280px) {
+    .navbar{
+        .navContainer{
+
+            .navSearch{
+                width: 250px;
+            }
+        }
+                .is-sticky{
+                    width: 260px;
+                    padding: 10px;
+            
+        }
+    }
+}
+

@@ -1,0 +1,236 @@
+.tableList{
+    margin-left: 20px;
+    margin-top: 20px;
+
+    .box{
+        
+        .boxTitle{
+            border-radius: 10px;
+
+            .tablehead{
+                margin: 30px 40px;
+
+                .tableTitle{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .subTitle{
+                        font-weight: 700;
+                        letter-spacing: 0.0075em;
+                        opacity: 1;
+                        font-family: Roboto, Helvetica, Arial, sans-serif;
+                        h5{
+                            color: rgb(52, 71, 103);
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                        span{
+                            display: flex;
+                            align-items: center;
+                            color: gray;
+                            font-size: 12px;
+
+                            .specialIcon{
+                                color: rgb(26, 115, 232);
+                                font-size: 22px;
+                                font-weight: bolder;
+                                margin-right: 5px;
+                            }
+                            .special{
+                                color:rgb(52, 71, 103);
+                                font-weight: bolder;
+                                margin-right: 4px;
+                                font-size: 14px;
+                                margin-left: 3px;
+                            }
+                        }
+
+                    }
+                }
+                .tableBig{
+                    margin-left: -40px;
+                    width: 600px;
+
+                    .tablecontainer{
+                        font-size: 12px;
+                        color: gray;
+                        font-weight: 800;            
+
+                           .containertable{
+                               display: flex;
+                               align-items: center;
+                               font-size: 14px;
+                               color: rgb(52, 71, 103);
+                               
+                               .tableImage{
+                                   width: 35px;
+                                   margin-right: 5px;
+                                   transition: all;
+                                   
+                                } 
+
+                        }
+                    }
+                }
+            }
+            .subdrop{
+                
+
+                .subdropIcon{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 989px) {
+    .tableList{
+        
+        .boxTitle{
+            width: 550px;
+           
+            .tableBig{
+                max-width: 550px;
+            }
+        }
+    }
+}
+@media (min-width: 778px) and (max-width: 956px) {
+    .tableList{
+        
+        .boxTitle{
+            width: 450px;
+           
+            .tableBig{
+                max-width: 450px;
+            }
+        }
+    }
+}
+@media (min-width: 778px) and (max-width: 860px) {
+    .tableList{
+        margin-left: 50px;
+        .boxTitle{
+            width: 430px;
+           
+            .tableBig{
+                max-width: 430px;
+            }
+        }
+    }
+}
+@media (min-width: 760px) and (max-width: 790px) {
+    .tableList{
+        
+        .boxTitle{
+            width: 370px;
+           
+            .tableBig{
+                max-width: 370px;
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 789.9px) {
+    .tableList{
+        
+        .boxTitle{
+            width: 660px;
+           
+            .tableBig{
+               max-width: 900px;
+                overflow: hidden;
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 729px) {
+    .tableList{
+        
+        .boxTitle{
+            width: 640px;
+
+            .tableBig{
+                max-width: 620px;
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 686px) {
+    .tableList{
+
+        .boxTitle{
+            width: 585px;
+            
+            .tableBig{
+                max-width: 550px;
+                overflow-x: scroll;
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 634px) {
+    .tableList{
+
+        .boxTitle{
+            width: 500px;
+            
+            .tableBig{
+                max-width: 500px;
+                overflow-x: scroll;
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 544px) {
+    .tableList{
+
+        .boxTitle{
+            width: 450px;
+            
+            .tableBig{
+                max-width: 450px;
+                overflow-x: scroll;
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 506px) {
+    .tableList{
+
+        .boxTitle{
+            width: 380px;
+            
+            .tableBig{
+                max-width: 380px;
+                overflow-x: scroll;
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 425px) {
+    .tableList{
+
+        .boxTitle{
+            width: 310px;
+            
+            .tableBig{
+                max-width: 310px;
+                overflow-x: scroll;
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width:280px) {
+    .tableList{
+
+        .boxTitle{
+            width: 250px;
+            
+            .tableBig{
+                max-width: 250px;
+                overflow-x: scroll;
+            }
+        }
+    }
+}

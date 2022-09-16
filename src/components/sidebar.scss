@@ -1,0 +1,250 @@
+.sidebar{
+    flex: 3;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+    .HamBugger{
+        display: flex;
+        visibility: hidden;
+        left: 40px;
+        margin-left: 30px;
+        position: -webkit-sticky;
+        position: sticky;
+        color: rgb(40, 56, 83);;
+        border: none;
+        background-color:transparent;
+        cursor: pointer;
+    }
+    .container{
+        position: fixed;
+        background-color:rgb(25, 25, 25);
+        border-radius: 10px;
+        height: 90vh;
+        width: 250px;
+        background:linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+        z-index:9999;
+
+        
+        .title{
+         padding-top: 20px;   
+         display: flex;
+         color: white;
+         align-items: center;
+         cursor: pointer;
+        
+            img{
+                width: 35px;
+                height: 35px;
+                margin-left: 30px;
+            }
+            h3{
+                background-color: transparent;
+                margin-left: 5px;
+                color: rgb(255, 255, 255);
+                font-weight: 600;
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                font-size: 0.875rem;
+                line-height: 1.5;
+                letter-spacing: 0.02857em;
+            
+            }
+        }
+        hr{
+            margin-top: 20px;
+            background-color: gray;
+            border-bottom: 1px;
+            
+        }
+
+       .list{
+            margin-left: 20px;
+            width:100%;
+
+            ul{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                color: rgba(255, 255, 255, 0.978);
+                font-size: 13px;
+            
+                .listsub{
+                    display: flex;
+                    align-items: center;
+                    font-weight: 600;
+                    margin-top: 10px;
+                    
+                    }
+
+                    .active{
+                        background-color:  rgb(73, 163, 241);;
+                    }
+                    .linklist{
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        list-style: none;
+                        color: rgba(255, 255, 255, 0.978);
+                        font-size: 13px; 
+                        text-decoration: none;
+                        border-radius: 5px;
+                        padding-left: 10px;
+                        width: 85%;
+                        height: 40px;
+                        letter-spacing: 1px;
+
+                        
+                        &:hover{
+                            background-color: rgb(73, 163, 241);
+                            cursor: pointer;
+                        
+                    }
+                    
+                    .icons{
+                        margin-right: 10px;
+                    }
+                }
+            }
+            button{
+                position: absolute;
+                background-color: rgb(73, 163, 241);
+                width: 85%;
+                margin-top: 20px;
+                height: 35px;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                font-weight: 700;
+                font-size: 12px;
+                cursor: pointer;
+            }
+       }    
+    }
+    .containerSub{
+        position: fixed;
+        background-color:rgb(25, 25, 25);
+        border-radius: 10px;
+        height: 90vh;
+        width: 250px;
+        background:linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+        z-index:9999;
+
+        
+        .title{
+         padding-top: 20px;   
+         display: flex;
+         color: white;
+         align-items: center;
+         cursor: pointer;
+        
+            img{
+                width: 35px;
+                height: 35px;
+                margin-left: 30px;
+            }
+            h3{
+                background-color: transparent;
+                margin-left: 5px;
+                color: rgb(255, 255, 255);
+                font-weight: 600;
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                font-size: 0.875rem;
+                line-height: 1.5;
+                letter-spacing: 0.02857em;
+            
+            }
+        }
+        hr{
+            margin-top: 10px;
+            background-color: gray;
+            border-bottom: 1px;
+            
+        }
+
+       .list{
+            margin-left: 20px;
+            width:100%;
+
+            ul{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                color: rgba(255, 255, 255, 0.978);
+                font-size: 13px;
+            
+                .listsub{
+                    display: flex;
+                    align-items: center;
+                    font-weight: 600;
+                    margin-top: 10px;
+                    
+                    }
+
+                    .active{
+                        background-color:  rgb(73, 163, 241);;
+                    }
+                    .linklist{
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        list-style: none;
+                        color: rgba(255, 255, 255, 0.978);
+                        font-size: 13px; 
+                        text-decoration: none;
+                        border-radius: 5px;
+                        padding-left: 10px;
+                        width: 85%;
+                        height: 45px;
+                        letter-spacing: 1px;
+
+                        
+                        &:hover{
+                            background-color: rgb(73, 163, 241);
+                            cursor: pointer;
+                        
+                    }
+                    
+                    .icons{
+                        margin-right: 10px;
+                    }
+                }
+            }
+            button{
+                position: absolute;
+                background-color: rgb(73, 163, 241);
+                width: 85%;
+                margin-top: 5px;
+                height: 35px;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                font-weight: 700;
+                font-size: 12px;
+                cursor: pointer;
+            }
+       }    
+    }
+    
+}
+@media (min-width: 200px) and (max-width: 1200px) {
+    .sidebar{
+        margin-right: -100px;
+        .HamBugger{
+            visibility: visible;
+        }
+        .container{
+            position: relative;
+            margin-left:-300px; 
+        }
+        .containerSub{
+            margin-left: 0px;
+        }
+    }
+}
+@media (min-width: 600px) and (max-width: 779px) {
+    
+}
+
+

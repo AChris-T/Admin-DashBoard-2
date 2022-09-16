@@ -1,0 +1,36 @@
+.SignIn{
+
+    .box{
+        margin-left: 20px;
+
+        .boxTitle{
+            width: calc(100% - 2rem);
+            min-height: 35vh;
+            margin-left: 16px;
+            margin-right: 16px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            padding-top: 48px;
+            padding-bottom: 224px;
+            opacity: 1;
+            color: rgb(52, 71, 103);
+            box-shadow: none;
+            background: linear-gradient(195deg, rgba(66, 66, 74, 0.4), rgba(25, 25, 25, 0.4)) center center / cover no-repeat, url("https://demos.creative-tim.com/material-dashboard-react/static/media/bg-sign-up-cover.30c5950b22e74f0d82ba.jpeg") transparent;
+            border-radius: 0.75rem;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    }
+    .boxForm{
+        display: flex;
+        margin-left: 35%;
+        padding: 20px;
+        width: 400px;
+
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+}

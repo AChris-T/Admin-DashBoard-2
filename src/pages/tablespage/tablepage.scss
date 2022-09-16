@@ -1,0 +1,44 @@
+.tablePage{
+    display: flex;
+    height: auto;
+
+
+    .tableInfo{
+        flex: 3;
+    }
+    .tablecontent{
+        margin-left: 160px;        
+        flex: 10;
+    }
+}
+@media (min-width:200px) and (max-width: 1030px) {
+    .tablePage{
+        overflow-x: hidden;
+        .tablecontent{
+            margin-left: 20px;
+        }
+    }
+}
+
+@media (min-width: 790px) and (max-width: 867px){
+    .tablePage{
+            .tablecontent{
+                margin-left:10px;
+                .nav{
+                    margin-left: -50px;
+                    
+                }
+            }
+    }
+}
+@media (min-width: 200px) and (max-width: 726px){
+       .tablePage{
+            .tablecontent{
+                margin-left:-20px;
+                .nav{
+                    margin-left: 10px;
+                    
+                }
+            }
+    }
+}

@@ -1,0 +1,206 @@
+.DataBg{
+    display: flex;
+    flex-direction: row;
+    .Data{
+        width: 220px;
+        height: 140px;
+        border-radius: 10px;
+        background-color:rgb(255, 255, 255);
+        box-shadow:rgb(0 0 0 / 10%) 0rem 0.25rem 0.37;
+        border: 2px solid white;
+        
+        .containerData{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            
+            
+            .icon{
+                display: flex;
+                margin-top: -15px;
+                margin-left: 15px;
+                width: 50px;
+                height: 50px;
+                background-color: black;
+                border-radius: 10px;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                opacity: 1;
+            }
+            .title{
+                display: flex;
+                line-height: 20px;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 5px;
+                margin-right: 20px;
+                
+                h5{
+                    font-size: 15px;
+                    color: darkgray;
+                }
+                h3{
+                    font-weight: bolder;
+                    font-size: 20px;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+        }
+        hr{
+            border:none; 
+            border-top: 0px solid rgba(0, 0, 0, 0.12);
+            border-right: 0px solid rgba(0, 0, 0, 0.12);
+            border-left: 0px solid rgba(0, 0, 0, 0.12);
+            background-color: transparent;
+            height: 0.0625rem;
+            margin: 2rem 0px;
+            border-bottom: none;
+            opacity: 0.25;
+            background-image: linear-gradient(to right, rgba(52, 71, 103, 0), rgba(52, 71, 103, 0.4), rgba(52, 71, 103, 0))  
+        }
+        
+        .income{
+            margin-top: -20px;
+            margin-left: 10px;
+            font-size: 0.875rem;
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            
+            .percentage{
+                color: rgb(76, 175, 80);
+                font-weight: 900;
+                line-height: 1.5;
+                letter-spacing: 0.02857em;
+                margin-right: 5px;
+            }
+        }
+    }
+    }
+
+@media (min-width: 990px) and (max-width: 1250px) {
+    .DataBg{
+
+        .Data{
+            gap:5px
+        }
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 989px) {
+    .DataBg{
+        .Data{        
+            width: 450px;
+            grid-area: auto;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 956px) {
+    .DataBg{
+        .Data{        
+            width: 400px;
+            grid-area: auto;
+        }
+    }
+}
+@media (min-width: 790px) and (max-width: 887px) {
+        .DataBg{
+            margin-left: 40px;
+        .Data{        
+            width: 400px;
+            grid-area: auto;
+        }
+    }
+
+}
+@media(min-width:790px) and (max-width:884px){
+    .DataBg{
+        .Data{        
+            width: 300px;
+            grid-area: auto;
+        }
+    }
+}
+
+@media (min-width: 778px) and (max-width: 860px) {
+    .DataBg{
+        margin-left: 50px;
+        .Data{        
+            width: 350px;
+            grid-area: auto;
+        }
+    }
+}
+@media (min-width: 760px) and (max-width: 777.5px) {
+
+    .DataBg{
+        .Data{        
+            width: 300px;
+            grid-area: auto;
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 789.9px) {
+    .DataBg{
+        .Data{        
+            width: 680px;
+            grid-area: auto;
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 729px) {
+    .DataBg{
+        .Data{        
+            width: 650px;
+            grid-area: auto;
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 786px) {
+    .DataBg{
+        .Data{        
+            width: 600px;
+            grid-area: auto;
+            margin-right: 20px;
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 634px) {
+    .DataBg{
+        .Data{        
+            width: 500px;
+            
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 554px) {
+    .DataBg{
+        .Data{        
+            width: 450px;
+            
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 506px) {
+    .DataBg{
+        .Data{        
+            width: 380px;
+            
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 425px) {
+    .DataBg{
+        .Data{        
+            width: 315px;
+            
+        }
+    }
+}
+@media (min-width: 200px) and (max-width:280px) {
+    .DataBg{
+        .Data{        
+            width: 250px;
+            
+        }
+    }
+}

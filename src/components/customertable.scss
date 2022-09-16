@@ -1,0 +1,322 @@
+.customer{
+    margin-left: 10px;
+    .box{
+        margin-left: 10px;
+        margin-top: 30px;
+    
+    .paperBox{
+       display: flex;
+       align-items: center;
+       margin-bottom: 20px;
+       width: 860px;
+       height: 80px;
+       margin-top: -25px;
+       margin-left: 20px;
+       background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+
+      h6{
+      padding-left: 10px;
+      font-size: 1rem;
+      color: rgb(255, 255, 255);
+      font-weight: 700;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      letter-spacing: 0.0075em;
+      }
+    }
+    .tableCell{
+        background: transparent;
+        color: rgb(123, 128, 154);
+        box-shadow: none;
+        font-size: 0.65rem;
+        font-weight: 700;
+    }
+            
+    .tableBody{
+        .cell{
+          display: flex;
+          width: 250px;
+          align-items: center;
+          margin-top: 5px;
+          margin-bottom: 5px;
+
+         img{
+         width: 40px;
+         height: 40px;
+         margin-right: 15px;
+         border-radius: 50%;
+         }
+         .mail{
+            display: flex;
+            flex-direction:column;
+            width: 200px;
+            color: rgb(52, 71, 103);
+            font-weight: 600;
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            letter-spacing: 0.02857em;
+
+            p{
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-size: 0.75rem;
+            font-weight: 300;
+            line-height: 1.25;
+            letter-spacing: 0.03333em           
+            }
+         }
+        }
+
+        .function{
+            color: rgb(123, 128, 154);
+            font-weight: 600;
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-size: 0.75rem;
+            line-height: 1.25;
+            letter-spacing: 0.03333em;
+            opacity: 1;
+
+            p{
+                margin: 0px;
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                font-size: 0.75rem;
+                font-weight: 300;
+                line-height: 1.25;
+                letter-spacing: 0.03333em;
+                opacity: 1;
+            }
+        }
+        .status{
+            padding: 0.55em 0.9em;
+            font-size: 0.5625rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border: none;
+            border-radius: 0.375rem;
+            color: rgb(255, 255, 255);
+            position: static;
+            margin-left: 0.5rem;
+
+            &.ONLINE{
+                background: linear-gradient(195deg, rgb(102, 187, 106), rgb(67, 160, 71));
+            }
+            &.OFFLINE{
+                background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+            }
+        }
+        .date{
+
+            a{
+             font-family: Roboto, Helvetica, Arial, sans-serif;
+             font-size: 0.75rem;
+             line-height: 1.25;
+             letter-spacing: 0.03333em;
+             opacity: 1;
+             color: rgb(123, 128, 154);
+             font-weight: 600;
+             text-decoration: none;
+            }
+        }        
+            
+        .edit{
+
+            a{
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                font-size: 0.75rem;
+                line-height: 1.25;
+                letter-spacing: 0.03333em;
+                opacity: 1;
+                color: rgb(123, 128, 154);
+                font-weight: 600;
+                text-decoration: none;
+            }              
+        }
+    }
+}
+
+}
+@media (min-width: 200px) and (max-width: 989px){
+    .customer{
+        .box{
+            width: 880px;
+            .paperBox{
+                 width: 820px;
+            }
+        }
+    }
+
+}
+@media (min-width: 200px) and (max-width: 930px){
+    .customer{
+        .box{
+            width: 820px;
+            .paperBox{
+                 width: 760px;
+            }
+        }
+    }
+
+}
+@media (min-width: 200px) and (max-width: 867px){
+    .customer{
+        .box{
+            width: 750px;
+            .paperBox{
+                 width: 700px;
+            }
+        }
+    }
+
+}
+@media (min-width: 200px) and (max-width: 789.33px){
+    .customer{
+        .box{
+            width: 500px;
+            .paperBox{
+                 width: 630px;
+            }
+        }
+    }
+
+}
+@media (min-width: 200px) and (max-width: 686px){
+        .customer{
+            
+            .box{
+                width: 500px;
+                
+                .paperBox{
+                     width:570px;
+                }
+                .tableDetails{
+                    overflow-x: scroll;
+                    width: 610px;
+                    .cell{
+
+                        img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+@media (min-width: 200px) and (max-width: 634px){
+    .customer{
+            
+        .box{
+            width: 530px;
+            
+            .paperBox{
+                 width:470px;
+            }
+            .tableDetails{
+                overflow-x: scroll;
+                width: 510px;
+                .cell{
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 543.33px){
+    .customer{
+            
+        .box{
+            width: 400px;
+            
+            .paperBox{
+                 width:430px;
+            }
+            .tableDetails{
+                overflow-x: scroll;
+                width: 470px;
+                .cell{
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 498.33px){
+    .customer{
+            
+        .box{
+            width: 410px;
+            
+            .paperBox{
+                 width:350px;
+            }
+            .tableDetails{
+                overflow-x: scroll;
+                width: 250px;
+                .cell{
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 424px){
+    .customer{
+            
+        .box{
+            width: 340px;
+            
+            .paperBox{
+                 width:280px;
+            }
+            .tableDetails{
+                overflow-x: scroll;
+                width: 300px;
+                .cell{
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 200px) and (max-width: 280px){
+    .customer{
+            
+        .box{
+            width: 270px;
+            
+            .paperBox{
+                 width:220px;
+            }
+            .tableDetails{
+                overflow-x: scroll;
+                width: 200px;
+                .cell{
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
