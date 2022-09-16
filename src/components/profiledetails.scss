@@ -314,8 +314,12 @@
         }
     }
 }
-@media (min-width:990px) and (max-width: 1030px) {
+@media (min-width:290px) and (max-width: 934px) {
     .profile{
-        margin-left:20px;
+        margin-left:10px;
+
+        .profilebox{
+            width: 850px;
+        }
     }
 }

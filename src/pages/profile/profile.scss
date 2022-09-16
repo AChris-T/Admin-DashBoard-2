@@ -10,13 +10,17 @@
         flex: 11;
     }
 }
-@media (min-width:990px) and (max-width: 1030px) {
+@media (min-width:200px) and (max-width: 1029.33px) {
     .profile{
-        .profileside{
-        }
-    
         .sidemenu{
             margin-left: -290px;
+        }
+    }
+}
+@media (min-width:290px) and (max-width: 934px) {
+    .profile{
+        .sidemenu{
+            margin-left: -250px;
         }
     }
 }
