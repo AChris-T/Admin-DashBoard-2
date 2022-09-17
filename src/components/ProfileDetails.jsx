@@ -181,6 +181,7 @@ const ProfileDetails = () => {
                 </div>
             </div>
             <div className="profileFtf">
+              <div className="profilesms">
                 <div className="profiles">
                     <h4>Platform Settings</h4>
                     <h3>Account</h3>
@@ -235,19 +236,24 @@ const ProfileDetails = () => {
                          ))}
 
                     </div>
+             </div>
                 </div>
                 <div className="conversation">
+                <div className="conversations">
                     <h4>Conversations</h4>
                     {conver.map((convers)=>(
                         <div className="convescont" key={convers.id}>
-                           <img src={convers.image} alt="in"  className="converImage"/>
-                            <span className="convdetails">
-                                <h4>{convers.name}</h4>
-                                <h6>{convers.reply}</h6>
-                            </span>
+                            <div className="conversms" style={{display:"flex"}}>
+                                <img src={convers.image} alt="in"  className="converImage"/>
+                                <div className="convdetails">
+                                    <h4>{convers.name}</h4>
+                                    <h6>{convers.reply}</h6>
+                                </div>
+                            </div>
                             <h5>Reply</h5>
                         </div>
                     ))}
+                </div>
                 </div>
             </div>
             <div className="projects">
