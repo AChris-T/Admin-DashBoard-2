@@ -181,22 +181,22 @@ const ProfileDetails = () => {
                 </div>
             </div>
             <div className="profileFtf">
-              <div className="profilesms">
-                <div className="profiles">
-                    <h4>Platform Settings</h4>
-                    <h3>Account</h3>
-                    {settings.map((setting)=>(
+                <div className="profilesms">
+                    <div className="profiles">
+                        <h4>Platform Settings</h4> 
+                        <h3>Account</h3>
+                        {settings.map((setting)=>(
                         <div className="switchDetails">
-                        <FormControl component="fieldset">
-                            <FormGroup aria-label="position" row>
-                                <FormControlLabel
-                                value="top"
-                                control={<Switch color="primary" />}
-                                labelPlacement="top"
-                                />
-                            <h5>{setting.label}</h5>
-                        </FormGroup>
-                        </FormControl>
+                            <FormControl component="fieldset">
+                                <FormGroup aria-label="position" row>
+                                    <FormControlLabel
+                                    value="top"
+                                    control={<Switch color="primary" />}
+                                    labelPlacement="top"
+                                    />
+                                    <h5>{setting.label}</h5>
+                                </FormGroup>
+                            </FormControl>
                         </div>
                         ))}
                         <h3>Application</h3>
@@ -214,8 +214,8 @@ const ProfileDetails = () => {
                             </FormControl>
                             </div>
                             ))}
-                </div>
-                <div className="profileInformation">
+                    </div>
+                     <div className="profileInformation">
                     <span className="headprof">
                     <h4>Profile Information</h4>
                     <EditIcon className="headIcon"/>
@@ -235,8 +235,8 @@ const ProfileDetails = () => {
                             </div>
                          ))}
 
+                     </div>
                     </div>
-             </div>
                 </div>
                 <div className="conversation">
                 <div className="conversations">
@@ -282,7 +282,7 @@ const ProfileDetails = () => {
                          <Avatar alt="Cindy Baker" src="https://demos.creative-tim.com/material-dashboard-react/static/media/team-3.0ef0be95e6850814c79e.jpg"  style={{width:"25px", height:"25px", cursor:"pointer"}}/>
                          </Tooltip>
                          <Tooltip title="Agnes Walker" arrow>
-                         <Avatar alt="Agnes Walker" src="https://demos.creative-tim.com/material-dashboard-react/static/media/team-4.85c82b6e60178804017f.jpg" style={{width:"25px", height:"25px",cursor:"pointer"}}/>
+                         <Avatar alt="Agnes Walke r" src="https://demos.creative-tim.com/material-dashboard-react/static/media/team-4.85c82b6e60178804017f.jpg" style={{width:"25px", height:"25px",cursor:"pointer"}}/>
                          </Tooltip>
                          </AvatarGroup>
                          </span>

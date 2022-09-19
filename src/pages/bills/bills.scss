@@ -4,6 +4,9 @@
     .billsider{
         flex: 14;
         margin-top: 40px;
+        .conbill{
+            margin-top: 10px;
+        }
     }
 }
 @media (min-width:890px) and (max-width: 1030px) {

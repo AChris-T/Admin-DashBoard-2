@@ -12,7 +12,9 @@ const Profile = () => {
         <Sidebar/>
       </div>
       <div className="sidemenu">
+          <div className="stickybar">
           <Navbar/>
+          </div>
           <ProfileDetails/>
           <Footer/>
         </div>

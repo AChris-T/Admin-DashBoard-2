@@ -318,43 +318,364 @@
         }
     }
 }
-@media (min-width:290px) and (max-width: 934px) {
+@media (min-width:200px) and (max-width: 1029.33px) {
     .profile{
-        margin-left:10px;
-
+        margin-left: -100px;
+    }
+}
+@media (min-width:200px) and (max-width: 930px) {
+    .profile{
+        margin-left: 20px;
         .profilebox{
-            width: 850px;
-
+            .boxTitle{
+                width: 850px;
+            }
             .profileBg{
-                width: 760px;
+                width: 780px;
+            }
+            .profileFtf{
+                display: flex;
+                flex-direction: column;
+                .profInfo{
+                    border: none;
+                }
 
-                .profileFtf{
+                .conversation{
                     display: flex;
-                    flex-direction: column;                    
-                   
-                    .profileInformation{
-                        border-right:none;
-                    }
-                    .conversation{
-                       width: 650px;
-                      
-                       
+                    
+
+                    .conversations{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10px;
+                        width:800px;
+                        justify-content:space-around;
+
                        .convescont{
                         display: flex;
                         justify-content: space-between;
-                       }
-                       
+                       } 
                     }
                 }
-                .projects{
-                    .projectdisplays{
-                        display: grid;
-                        grid-template-columns: auto auto;
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto auto;
 
-                        .imgproject{
-                            width: 300px;
-                            height: 200px;
+                    .imgproject{
+                        width: 300px;
+                        height: 200px;
+                    }
+                    p{
+                        width:300px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 906px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            
+            .boxTitle{
+                width: 770px;
+            }
+            .profileBg{
+                width: 700px;
+            }
+            .profileFtf{
+                display: flex;
+                flex-direction: column;
+                .profInfo{
+                    border: none;
+                }
+
+                .conversation{
+                    display: flex;
+                    
+
+                    .conversations{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10px;
+                        width:800px;
+                        justify-content:space-around;
+
+                       .convescont{
+                        display: flex;
+                        justify-content: space-between;
+                       } 
+                    }
+                }
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto auto;
+
+                    .imgproject{
+                        width: 300px;
+                        height: 200px;
+                    }
+                    p{
+                        width:300px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 826px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            margin-left: -150px;
+            .boxTitle{
+                width: 700px;
+            }
+            .profileBg{
+                width: 600px;
+                .profileFtf{
+                    display: flex;
+                    flex-direction: column;
+                    .profInfo{
+                        border: none;
+                    }
+                    
+                    .conversation{
+                        display: flex;
+                        
+                        
+                        .conversations{
+                            display: flex;
+                            flex-direction: column;
+                            padding: 10px;
+                            width:800px;
+                            justify-content:space-around;
+                            
+                            .convescont{
+                                display: flex;
+                                justify-content: space-between;
+                            } 
                         }
+                    }
+                }
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto auto;
+
+                    .imgproject{
+                        width: 300px;
+                        height: 200px;
+                    }
+                    p{
+                        width:300px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 742px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            margin-left: -150px;
+            .boxTitle{
+                width: 600px;
+            }
+            .profileBg{
+                width: 500px;
+                .profileHead{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    align-items: flex-start;
+                }
+                .profileFtf{
+                    display: flex;
+                    flex-direction: column;
+                    .profilesms{
+                        display: grid;
+                        grid-template-columns: auto;
+                        gap: 20px;
+                        margin-bottom: 20px;
+                    }
+                    .profInfo{
+                        border: none;
+                    }
+                    
+                    .conversation{
+                        display: flex;
+                        margin-left: -5px;
+                        
+                        .conversations{
+                            display: flex;
+                            flex-direction: column;
+                            width:800px;
+                            padding: 20px;
+                            justify-content:space-around;
+                            
+                            .convescont{
+                                display: flex;
+                                justify-content: space-between;
+                            } 
+                        }
+                    }
+                }
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto;
+
+                    .imgproject{
+                        width: 400px;
+                        height: 300px;
+                    }
+                    p{
+                        width:500px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 630px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            margin-left: -100px;
+            .boxTitle{
+                width: 500px;
+            }
+            .profileBg{
+                width: 400px;
+                .profileHead{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    align-items: flex-start;
+                }
+                .profileFtf{
+                    display: flex;
+                    flex-direction: column;
+                    .profilesms{
+                        display: grid;
+                        grid-template-columns: auto;
+                        gap: 20px;
+                        margin-bottom: 20px;
+                    }
+                    .profInfo{
+                        border: none;
+                    }
+                    
+                    .conversation{
+                        display: flex;
+                        margin-left: -5px;
+                        
+                        .conversations{
+                            display: flex;
+                            flex-direction: column;
+                            width:800px;
+                            padding: 20px;
+                            justify-content:space-around;
+                            
+                            .convescont{
+                                display: flex;
+                                justify-content: space-between;
+                            } 
+                        }
+                    }
+                }
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto;
+
+                    .imgproject{
+                        width: 300px;
+                        height: 300px;
+                    }
+                    p{
+                        width:300px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 530px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            margin-left: -100px;
+            .boxTitle{
+                width: 400px;
+            }
+            .profileBg{
+                width: 300px;
+                .profileHead{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    align-items: flex-start;
+                }
+                .profileFtf{
+                    display: flex;
+                    flex-direction: column;
+                    .profilesms{
+                        display: grid;
+                        grid-template-columns: auto;
+                        gap: 20px;
+                        margin-bottom: 20px;
+                    }
+                    .profInfo{
+                        border: none;
+                    }
+                    
+                    .conversation{
+                        display: flex;
+                        margin-left: -5px;
+                        
+                        .conversations{
+                            display: flex;
+                            flex-direction: column;
+                            width:800px;
+                            padding: 20px;
+                            justify-content:space-around;
+                            
+                            .convescont{
+                                display: flex;
+                                justify-content: space-between;
+                            } 
+                        }
+                    }
+                }
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto;
+
+                    .imgproject{
+                        width: 300px;
+                        height: 300px;
+                    }
+                    p{
+                        width:300px;
+                        
                     }
                 }
             }
