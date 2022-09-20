@@ -193,6 +193,7 @@ const ProfileDetails = () => {
                                     value="top"
                                     control={<Switch color="primary" />}
                                     labelPlacement="top"
+                                    
                                     />
                                     <h5>{setting.label}</h5>
                                 </FormGroup>
@@ -208,6 +209,8 @@ const ProfileDetails = () => {
                                     value="top"
                                     control={<Switch color="primary" />}
                                     labelPlacement="top"
+                                    className="switch"
+                                    
                                     />
                                 <h5>{setting.new}</h5>
                             </FormGroup>
@@ -215,7 +218,7 @@ const ProfileDetails = () => {
                             </div>
                             ))}
                     </div>
-                     <div className="profileInformation">
+                    <div className="profileInformation">
                     <span className="headprof">
                     <h4>Profile Information</h4>
                     <EditIcon className="headIcon"/>
@@ -234,6 +237,7 @@ const ProfileDetails = () => {
                                 </span>
                             </div>
                          ))}
+
 
                      </div>
                     </div>

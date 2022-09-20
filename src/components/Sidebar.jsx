@@ -32,7 +32,7 @@ const Sidebar = () => {
           <li className="listsub"> <NavLink to="/tables" className="linklist" activeclassname="active"><TableViewIcon className="icons"/> Tables</NavLink></li>
           <li className="listsub"><NavLink to="/bills" className="linklist" activeclassname="active"><ReceiptLongIcon className="icons"/> Billings</NavLink></li>
           <li className="listsub"><NavLink to="/RTL" className="linklist" activeclassname="active"><FormatTextdirectionRToLIcon className="icons"/> RTL</NavLink></li>
-          <li className="listsub"><NavLink to="/notifications" className="linklist" activeclassname="active"><NotificationsIcon className="icons"/> Notifications</NavLink></li>
+          {/*<li className="listsub"><NavLink to="/notifications" className="linklist" activeclassname="active"><NotificationsIcon className="icons"/> Notifications</NavLink></li>*/}
           <li className="listsub"><NavLink to="/profile" className="linklist" activeclassname="active"><PersonIcon className="icons"/> Profile</NavLink></li>
           <li className="listsub"><NavLink to="/Signin" className="linklist" activeclassname="active"><LoginIcon className="icons"/> Sign In</NavLink></li>
           <li className="listsub"><Link to="/Signup" className="linklist"><AssignmentIcon classname="icons"/> Sign Up</Link></li>

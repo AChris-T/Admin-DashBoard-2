@@ -51,6 +51,7 @@
             margin:auto;
             margin-top: 20px;
             
+            
             .formInputs{
                 display: flex;
                 flex-direction: column;
@@ -115,4 +116,58 @@
         }
     }
 
+}
+@media (min-width:200px) and (max-width: 1029.33px) {
+    .signupform{
+        .signupPaper{
+            width: 400px;
+        }
+    }
+}
+
+@media (min-width:200px) and (max-width: 444.33px) {
+    .signupform{
+        .signupPaper{
+            width: 300px;
+            .signcontainer{
+                width: 250px;
+            }
+            form{
+                .formInputs{
+                    
+                    input{
+                        width: 250px;
+                        
+                        
+                        .forminput{
+                            width: 10px;  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 337.33px) {
+    .signupform{
+        .signupPaper{
+            width: 200px;
+            .signcontainer{
+                width: 150px;
+            }
+            form{
+                .formInputs{
+                    
+                    input{
+                        width: 170px;
+                        
+                        
+                        .forminput{
+                            width: 10px;  
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -320,7 +320,7 @@
 }
 @media (min-width:200px) and (max-width: 1029.33px) {
     .profile{
-        margin-left: -100px;
+        margin-left: 20px;
     }
 }
 @media (min-width:200px) and (max-width: 930px) {
@@ -472,7 +472,7 @@
                     grid-template-columns: auto auto;
 
                     .imgproject{
-                        width: 300px;
+                        width: 250px;
                         height: 200px;
                     }
                     p{
@@ -622,10 +622,10 @@
         .profilebox{
             margin-left: -100px;
             .boxTitle{
-                width: 400px;
+                width: 450px;
             }
             .profileBg{
-                width: 300px;
+                width: 390px;
                 .profileHead{
                     display: flex;
                     flex-direction: column;
@@ -680,5 +680,463 @@
                 }
             }
         }
+    }
+}
+@media (min-width:200px) and (max-width: 482px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            margin-left: -50px;
+            .boxTitle{
+                width: 350px;
+            }
+            .profileBg{
+                width: 280px;
+                .profileHead{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    align-items: flex-start;
+                    .imgCont{
+
+                        img{
+                            width: 30px;
+                            height: 30px;
+                        }
+                        .imgSMs{
+
+                            h4{
+                                font-size: 15px;
+                            }
+                            h6{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                    .profileMenu{
+
+                        .menudetails{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            height: 150px;
+                            width: 240px;
+                            
+                            .menulist{
+                                width: 200px;
+                                .menulist{
+                                    display: flex;
+                                    align-items: flex-start;
+                                }
+                            }
+                        }
+                    }
+                }
+                .profileFtf{
+                    display: flex;
+                    flex-direction: column;
+                    .profilesms{
+                        display: grid;
+                        grid-template-columns: auto;
+                        gap: 20px;
+                        margin-bottom: 20px;
+
+                        .profiles{
+                            margin-left: -10px;
+                            border: none;
+
+                            h5{
+                                width: 150px;
+                            }
+                        }
+                    }
+                    .profInfo{
+                        border: none;
+                    }
+                    .profileInformation{
+                        border: none;
+                    }
+                    .conversation{
+                        display: flex;
+                        margin-left: -30px;
+                        
+                        .conversations{
+                            display: flex;
+                            flex-direction: column;
+                            width:800px;
+                            padding: 20px;
+                            justify-content:space-around;
+                            
+                            .convescont{
+                                display: flex;
+                                justify-content: space-between;
+                            } 
+                        }
+                    }
+                }
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto;
+
+                    .imgproject{
+                        width: 200px;
+                        height: 200px;
+                    }
+                    p{
+                        width:200px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 426px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            margin-left: -30px;
+            .boxTitle{
+                width: 350px;
+            }
+            .profileBg{
+                width: 280px;
+                .profileHead{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    align-items: flex-start;
+                    .imgCont{
+
+                        img{
+                            width: 30px;
+                            height: 30px;
+                        }
+                        .imgSMs{
+
+                            h4{
+                                font-size: 15px;
+                            }
+                            h6{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                    .profileMenu{
+
+                        .menudetails{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            height: 150px;
+                            width: 240px;
+                            
+                            .menulist{
+                                width: 200px;
+                                .menulist{
+                                    display: flex;
+                                    align-items: flex-start;
+                                }
+                            }
+                        }
+                    }
+                }
+                .profileFtf{
+                    display: flex;
+                    flex-direction: column;
+                    .profilesms{
+                        display: grid;
+                        grid-template-columns: auto;
+                        gap: 20px;
+                        margin-bottom: 20px;
+
+                        .profiles{
+                            margin-left: -10px;
+                            border: none;
+
+                            h5{
+                                width: 150px;
+                            }
+                        }
+                    }
+                    .profInfo{
+                        border: none;
+                    }
+                    .profileInformation{
+                        border: none;
+                    }
+                    .conversation{
+                        display: flex;
+                        margin-left: -30px;
+                        
+                        .conversations{
+                            display: flex;
+                            flex-direction: column;
+                            width:800px;
+                            padding: 20px;
+                            justify-content:space-around;
+                            
+                            .convescont{
+                                display: flex;
+                                justify-content: space-between;
+                            } 
+                        }
+                    }
+                }
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto;
+
+                    .imgproject{
+                        width: 200px;
+                        height: 200px;
+                    }
+                    p{
+                        width:200px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 426px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            margin-left: -30px;
+            .boxTitle{
+                width: 350px;
+            }
+            .profileBg{
+                width: 280px;
+                .profileHead{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    align-items: flex-start;
+                    .imgCont{
+
+                        img{
+                            width: 30px;
+                            height: 30px;
+                        }
+                        .imgSMs{
+
+                            h4{
+                                font-size: 15px;
+                            }
+                            h6{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                    .profileMenu{
+
+                        .menudetails{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            height: 150px;
+                            width: 240px;
+                            
+                            .menulist{
+                                width: 200px;
+                                .menulist{
+                                    display: flex;
+                                    align-items: flex-start;
+                                }
+                            }
+                        }
+                    }
+                }
+                .profileFtf{
+                    display: flex;
+                    flex-direction: column;
+                    .profilesms{
+                        display: grid;
+                        grid-template-columns: auto;
+                        gap: 20px;
+                        margin-bottom: 20px;
+
+                        .profiles{
+                            margin-left: -10px;
+                            border: none;
+
+                            h5{
+                                width: 150px;
+                            }
+                        }
+                    }
+                    .profInfo{
+                        border: none;
+                    }
+                    .profileInformation{
+                        border: none;
+                    }
+                    .conversation{
+                        display: flex;
+                        margin-left: -30px;
+                        
+                        .conversations{
+                            display: flex;
+                            flex-direction: column;
+                            width:800px;
+                            padding: 20px;
+                            justify-content:space-around;
+                            
+                            .convescont{
+                                display: flex;
+                                justify-content: space-between;
+                            } 
+                        }
+                    }
+                }
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto;
+
+                    .imgproject{
+                        width: 200px;
+                        height: 200px;
+                    }
+                    p{
+                        width:200px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 370px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            margin-left: -10px;
+            .boxTitle{
+                width: 300px;
+            }
+            .profileBg{
+                margin-left: 18px;
+                width: 280px;
+                .profileHead{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    align-items: flex-start;
+                    .imgCont{
+
+                        img{
+                            width: 30px;
+                            height: 30px;
+                        }
+                        .imgSMs{
+
+                            h4{
+                                font-size: 15px;
+                            }
+                            h6{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                    .profileMenu{
+
+                        .menudetails{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            height: 150px;
+                            width: 240px;
+                            
+                            .menulist{
+                                width: 200px;
+                                .menulist{
+                                    display: flex;
+                                    align-items: flex-start;
+                                }
+                            }
+                        }
+                    }
+                }
+                .profileFtf{
+                    display: flex;
+                    flex-direction: column;
+                    .profilesms{
+                        display: grid;
+                        grid-template-columns: auto;
+                        gap: 20px;
+                        margin-bottom: 20px;
+
+                        .profiles{
+                            margin-left: -10px;
+                            border: none;
+
+                            h5{
+                                width: 150px;
+                            }
+                        }
+                    }
+                    .profInfo{
+                        border: none;
+                    }
+                    .profileInformation{
+                        border: none;
+                    }
+                    .conversation{
+                        display: flex;
+                        margin-left: -30px;
+                        
+                        .conversations{
+                            display: flex;
+                            flex-direction: column;
+                            width:800px;
+                            padding: 20px;
+                            justify-content:space-around;
+                            
+                            .convescont{
+                                display: flex;
+                                justify-content: space-between;
+                            } 
+                        }
+                    }
+                }
+            }
+            .projects{
+                .projectdisplays{
+                    display: grid;
+                    grid-template-columns: auto;
+
+                    .imgproject{
+                        width: 200px;
+                        height: 200px;
+                    }
+                    p{
+                        width:200px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width: 370px) {
+    .profile{
+        margin-left: 20px;
+        .profilebox{
+            margin-left: -30px;
+        }
+
     }
 }

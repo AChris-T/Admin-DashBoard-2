@@ -23,7 +23,7 @@ const SignUpForm = ({submitForm}) => {
                 <WhatsAppIcon className="icon"/>
             </div>
         </Paper>
-    <form className="form" onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit} >
     <div className="formInputs">
       <label htmlFor="" className='formLabel'>Username</label>
       <input type="text"
