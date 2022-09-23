@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import SignUpForm from '../../components/SignUpForm'
 import HomePage from "../homepage/HomePage"
+import {NavLink} from "react-router-dom"
+
 
 
 const SignUp = () => {
@@ -11,7 +13,7 @@ const SignUp = () => {
   }
   return (
     <div className='signup'>
-        {!isSubmitted ? <SignUpForm submitForm={submitForm}/> : <HomePage/> }
+        {!isSubmitted ? <SignUpForm submitForm={submitForm}/> : <NavLink to="./tables"/> }
     </div>
   )
 }

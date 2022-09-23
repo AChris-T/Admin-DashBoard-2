@@ -16,10 +16,10 @@ import { useState } from "react";
 
 
 const Sidebar = () => {
-  const [isMobile, setIsMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState(true)
   return (
     <div className="sidebar">
-      <button className="HamBugger" onClick={()=> setIsMobile(!isMobile)}>{isMobile ?(<MenuIcon/>):(<MenuOpenIcon/>)}</button>
+      <button className="HamBugger" onClick={()=> setIsMobile(!isMobile)}>{isMobile ?(<MenuOpenIcon/>):(<MenuIcon/>)}</button>
       <div className={isMobile ?"container" : "containerSub"}>
       <div className="title">
         <img src={wew} alt="jkaf" />
@@ -28,14 +28,14 @@ const Sidebar = () => {
       <hr/>
       <div className="list" >
         <ul>
-          <li className="listsub"><NavLink to="/" exact className="linklist" activeclassname="active"><DashboardIcon className="icons" /> Dashboard</NavLink></li>
-          <li className="listsub"> <NavLink to="/tables" className="linklist" activeclassname="active"><TableViewIcon className="icons"/> Tables</NavLink></li>
-          <li className="listsub"><NavLink to="/bills" className="linklist" activeclassname="active"><ReceiptLongIcon className="icons"/> Billings</NavLink></li>
-          <li className="listsub"><NavLink to="/RTL" className="linklist" activeclassname="active"><FormatTextdirectionRToLIcon className="icons"/> RTL</NavLink></li>
+          <li className="listsub"><NavLink to="/home" exact="true" className="linklist" activeclassname="active"><DashboardIcon className="icons" /> Dashboard</NavLink></li>
+          <li className="listsub"> <NavLink to="/tables" exact="true" className="linklist" activeclassname="active"><TableViewIcon className="icons"/> Tables</NavLink></li>
+          <li className="listsub"><NavLink to="/bills" exact="true" className="linklist" activeclassname="active"><ReceiptLongIcon className="icons"/> Billings</NavLink></li>
+          <li className="listsub"><NavLink to="/RTL" exact="true" className="linklist" activeclassname="active"><FormatTextdirectionRToLIcon className="icons"/> RTL</NavLink></li>
           {/*<li className="listsub"><NavLink to="/notifications" className="linklist" activeclassname="active"><NotificationsIcon className="icons"/> Notifications</NavLink></li>*/}
-          <li className="listsub"><NavLink to="/profile" className="linklist" activeclassname="active"><PersonIcon className="icons"/> Profile</NavLink></li>
-          <li className="listsub"><NavLink to="/Signin" className="linklist" activeclassname="active"><LoginIcon className="icons"/> Sign In</NavLink></li>
-          <li className="listsub"><Link to="/Signup" className="linklist"><AssignmentIcon classname="icons"/> Sign Up</Link></li>
+          <li className="listsub"><NavLink to="/profile"  exact="true" className="linklist" activeclassname="active"><PersonIcon className="icons"/> Profile</NavLink></li>
+          <li className="listsub"><NavLink to="/Signin" exact="true" className="linklist" activeclassname="active"><LoginIcon className="icons"/> Sign In</NavLink></li>
+          <li className="listsub"><NavLink to="/Signup" exact="true" className="linklist"><AssignmentIcon className="icons"/> Sign Up</NavLink></li>
         </ul>
         <button>UPGRADE TO PRO</button>
       </div>

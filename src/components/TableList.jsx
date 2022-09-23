@@ -222,7 +222,7 @@ const TableList = () => {
                   <TableCell className="tablecontainer">COMPLETION</TableCell>
                 </TableRow>
               </TableHead>
-              <TableBody classNaame="tablebody">
+              <TableBody className="tablebody">
                 {rows.map((row) => (
                   <TableRow 
                     key={row.id} 

@@ -174,9 +174,9 @@ const ProfileDetails = () => {
                 </div>
                 <div className="profileMenu">
                     <div className="menudetails">
-                        <li  className="menulist"><NavLink to="/profile" className="menulink" activeClassName="menuactive"><HomeIcon/>APP</NavLink></li>
-                        <li className="menulist"><NavLink to="/" className="menulink" activeClassName="menuactive"><MailOutlineIcon/>Message</NavLink></li>
-                        <li className="menulist"><NavLink to="/profile" className="menulink" activeClassName="menuactive"><SettingsIcon/>Settings</NavLink></li>
+                        <li  className="menulist"><NavLink to="/profile" className="menulink" activeclassname="menuactive"><HomeIcon/>APP</NavLink></li>
+                        <li className="menulist"><NavLink to="/" className="menulink" activeclassname="menuactive"><MailOutlineIcon/>Message</NavLink></li>
+                        <li className="menulist"><NavLink to="/profile" className="menulink" activeclassname="menuactive"><SettingsIcon/>Settings</NavLink></li>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@ const ProfileDetails = () => {
                         <h4>Platform Settings</h4> 
                         <h3>Account</h3>
                         {settings.map((setting)=>(
-                        <div className="switchDetails">
+                        <div className="switchDetails" key={setting.id}>
                             <FormControl component="fieldset">
                                 <FormGroup aria-label="position" row>
                                     <FormControlLabel
@@ -202,7 +202,7 @@ const ProfileDetails = () => {
                         ))}
                         <h3>Application</h3>
                         {settings.map((setting)=>(
-                            <div className="switchDetails">
+                            <div className="switchDetails" key={setting.id}>
                             <FormControl component="fieldset">
                                 <FormGroup aria-label="position" row>
                                     <FormControlLabel
@@ -267,7 +267,7 @@ const ProfileDetails = () => {
                     </div>
                     <div className="projectdisplays">
                      {project.map((projects)=>(
-                         <div className="projectdisplay">
+                         <div className="projectdisplay" key={projects.id}>
                          <img src={projects.img} alt="proje" className="imgproject" />
                          <h5>{projects.name}</h5>
                          
